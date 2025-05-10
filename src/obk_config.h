@@ -190,7 +190,7 @@
 //#define ENABLE_DRIVER_PT6523	1
 //#define ENABLE_DRIVER_MAX6675	1
 //#define ENABLE_DRIVER_TEXTSCROLLER	1
-#define ENABLE_DRIVER_TUYAMCU   1
+//#define ENABLE_DRIVER_TUYAMCU   1
 //#define ENABLE_DRIVER_HT16K33   1
 //#define ENABLE_DRIVER_MAX72XX	  1
 //#define ENABLE_DRIVER_ADCBUTTON 1
@@ -232,7 +232,7 @@
 #if PLATFORM_BEKEN_NEW
 #define NEW_TCP_SERVER				1
 #endif
-// #define ENABLE_OBK_BERRY			1
+#define ENABLE_OBK_BERRY			1
 
 // ENABLE_I2C_ is a syntax for
 // our I2C system defines for drv_i2c_main.c
